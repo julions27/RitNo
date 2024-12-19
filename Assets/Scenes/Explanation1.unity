@@ -269,8 +269,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16, y: -169.86806}
-  m_SizeDelta: {x: 525.3575, y: 38.2639}
+  m_AnchoredPosition: {x: 89, y: -245}
+  m_SizeDelta: {x: 528.5, y: 38.2639}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &373203029
 MonoBehaviour:
@@ -301,8 +301,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 1291845631
-  m_fontColor: {r: 1, g: 1, b: 1, a: 0.29803923}
+    rgba: 4291611852
+  m_fontColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -319,8 +319,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 100.155106, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -507,7 +507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.010094, y: 61.86691}
+  m_AnchoredPosition: {x: 0, y: -8.2}
   m_SizeDelta: {x: 800, y: 326.2642}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1014331198
@@ -530,18 +530,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "No s\xE9culo XVI, Portugal enfrentava grandes dificuldades para abastecer
-    a Europa com a\xE7\xFAcar, que, na \xE9poca, era um produto raro e muito caro.
-    Quando os portugueses chegaram ao Brasil, viram a oportunidade de resolver esse
-    problema, pois o clima tropical e o solo f\xE9rtil eram ideais para o cultivo
-    da cana-de-a\xE7\xFAcar. No entanto, as terras do Rio Grande do Norte, onde se
-    iniciou o cultivo, nem sempre eram as mais adequadas para a planta\xE7\xE3o,
-    e as fazendas da regi\xE3o n\xE3o eram t\xE3o grandes quanto as encontradas em
-    outros estados do Brasil. A colheita da cana, que \xE9 a primeira etapa da produ\xE7\xE3o
-    do a\xE7\xFAcar, era feita manualmente, com fac\xF5es, exigindo muita for\xE7a
-    f\xEDsica dos trabalhadores. O processo era \xE1rduo e cansativo, pois cada cana
-    precisava ser cortada uma a uma, com o esfor\xE7o cont\xEDnuo dos trabalhadores,
-    que n\xE3o tinham as ferramentas modernas que temos hoje."
+  m_text: "No s\xE9culo XVI, Portugal enfrentava dificuldades para abastecer a Europa
+    com a\xE7\xFAcar, um produto raro e caro. Ao chegarem ao Brasil, os portugueses
+    aproveitaram o clima tropical e o solo f\xE9rtil para cultivar cana-de-a\xE7\xFAcar.
+    No entanto, as terras do Rio Grande do Norte eram menos prop\xEDcias e as fazendas
+    menores em compara\xE7\xE3o a outras regi\xF5es. A colheita da cana era manual
+    e exaustiva, feita com fac\xF5es, exigindo grande esfor\xE7o f\xEDsico dos trabalhadores."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -568,15 +562,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.3
-  m_fontSizeBase: 36
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 1000
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -604,7 +598,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 19.783722, y: 58.114685, z: 18.547241, w: -53.168747}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -668,7 +662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.09019608, g: 0.2627451, b: 0.29411766, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
