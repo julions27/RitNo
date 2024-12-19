@@ -21,7 +21,7 @@ public class RhythmGame : MonoBehaviour
     private int currentB3Index = 0; // Índice do próximo tempo B3 a processar
     private bool cuePlayed = false; // Flag para evitar múltiplos toques de deixa
 
-    private float lastMoveTime = 0f; // Momento do último movimento automático
+    private float lastMoveTime = 0.266f; // Momento do último movimento automático
     private int moveCounter = 0; // Contador para determinar quando mover o personagem
 
     public List<Animator> canaAnimators; // Lista de Animators das canas
@@ -48,17 +48,6 @@ public class RhythmGame : MonoBehaviour
     void Update()
     {
         float currentTime = music.time; // Tempo atual da música
-
-        // Movimento automático do personagem
-        if (currentTime >= lastMoveTime + moveInterval)
-        {
-            moveCounter++;
-            if (moveCounter % moveFrequency == 0)
-            {
-                MoveCharacter();
-            }
-            lastMoveTime = currentTime;
-        }
 
         // Atualiza o valor de cuter com base no input do jogador
         if (Input.GetKeyDown(KeyCode.Space))
@@ -96,11 +85,6 @@ public class RhythmGame : MonoBehaviour
             LoadNextScene();
         }
 
-    }
-
-    private void MoveCharacter()
-    {
-        transform.position += Vector3.right * moveDistance; // Move o personagem
     }
 
     private void CheckB3Hit(float currentTime)
@@ -142,7 +126,6 @@ public class RhythmGame : MonoBehaviour
             }
         }
     }
-
 
     private void OnTickHit()
     {
