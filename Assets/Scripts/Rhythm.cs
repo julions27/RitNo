@@ -1,9 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using System.IO;
 using TMPro; // Não se esqueça de importar o namespace do TextMeshPro
-using UnityEngine.SceneManagement;
+using UnityEngine;
 
 
 
@@ -80,12 +77,14 @@ public class RhythmGame : MonoBehaviour
             if (!cuePlayed && currentTime >= b3Time - 0.5f && currentTime < b3Time - 0.5f + tolerance)
             {
                 cueAudio.Play();
+                characterAnimator.SetTrigger("Cue"); // Dispara a animação de Cue
                 cuePlayed = true; // Marca que o áudio foi tocado
             }
 
             // Avança automaticamente o índice se passar do B3 sem acerto
             if (currentTime > b3Time + tolerance)
             {
+                characterAnimator.SetTrigger("ReturnToIdle");
                 OnTickMiss(); // Erro automático se passou do B3 sem apertar
                 currentB3Index++;
                 cuePlayed = false; // Reseta o sinal
